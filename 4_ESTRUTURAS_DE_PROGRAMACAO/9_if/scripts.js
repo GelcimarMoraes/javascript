@@ -8,14 +8,14 @@ if(idade > 25) {
   console.log("A idade é maior que 25");
 }
 
-let nome = "Matheus";
+let nome = "Gelcimar";
 
-if(nome == "Matheus" && idade > 10) {
+if(nome == "Gelcimar" && idade > 10) {
   console.log("Liberado!");
 }
 
 let passaporte = true;
 
-if((nome == "Matheus" && idade > 30) || passaporte == true) {
+if((nome == "Gelcimar" && idade > 30) || passaporte == true) {
   console.log("Liberado 2!");
 }
