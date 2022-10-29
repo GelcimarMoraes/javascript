@@ -1,4 +1,4 @@
-let nome = "Matheus";
+let nome = "Gelcimar";
 
 console.log(nome);
 console.log(`O meu nome é ${nome}`);
@@ -7,7 +7,7 @@ let laranjas = 5;
 
 console.log(laranjas * laranjas);
 
-nome = "João";
+nome = "Pedro";
 
 console.log(nome);
 
