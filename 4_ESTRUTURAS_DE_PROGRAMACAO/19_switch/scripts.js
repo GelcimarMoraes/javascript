@@ -1,8 +1,8 @@
-let nome = "Matheus";
+let nome = "Gelcimar";
 
 switch(nome) {
-  case "Matheus":
-    console.log("O Nome é Matheus");
+  case "Gelcimar":
+    console.log("O Nome é Gelcimar");
     break;
   case "João":
     console.log("O nome é João");
