@@ -1,5 +1,5 @@
-let idade = 15;
+let idade = 30;
 
 if(idade >= 18) {
-  console.log("Pode entrar!");
+  console.log("Pode entrar");
 }
