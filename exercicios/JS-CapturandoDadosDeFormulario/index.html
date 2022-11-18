@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capturando variáveis de formulário com JS</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Capturando variáveis de formulário com JS</h1>
+    </header>
+
+    <main>
+        <form action="" method="post" id="myform">
+            <div>
+                <label for="firstname">
+                    Nome: <br>
+                    <input type="text" name="firstname" id="name" required>
+                </label>
+            </div>
+            <div>
+                <label for="lastname">
+                    Sobrenome: <br>
+                    <input type="text" name="lastname" id="surname" required>
+                </label>
+            </div>
+            <div>
+                <label for="mail">
+                    E-mail: <br>
+                    <input type="email" name="mail" id="mymail" required>
+                </label>
+            </div>
+            <div class="nascimento">
+                <label for="birth">
+                    <p class="nasc">Nascimento:</p>
+                    <input class="nasci" type="date" name="birth" id="birthdate" required>
+                </label>
+            </div>
+            <div class="button">
+                <button type="submit" id="submitbtn">Enviar Dados</button>
+            </div>
+        </form>
+    </main>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+html, body {
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(34, 34, 34);
+}
+
+header {
+    padding: 0.5rem;
+    border-bottom: 1px solid rgb(40, 253, 136);
+    margin-bottom: 0.5rem;
+}
+
+header h1 {
+    color: rgb(40, 253, 136);
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    margin: 0.5rem;
+}
+
+form div {
+    padding: 1rem;
+}
+
+form div label {
+    font-size: 0.85rem;
+    color: rgb(40, 253, 136);
+}
+
+input {
+    padding: 0.25rem 1.25rem;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nascimento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nasc {
+    margin: 0.3125rem;
+    text-align: center;
+}
+
+.nasci {
+    padding: 0.25rem 3.0625rem;
+}
+
+button {
+    font-weight: 700;
+    background-color: rgb(34, 34, 34);
+    border: 0.125rem solid rgb(40, 253, 136);
+    color: #fff;
+    padding: 0.625rem 3.875rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(40, 253, 136);
+    color: rgb(31, 30, 30);
+}
